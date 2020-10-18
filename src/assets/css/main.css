@@ -1,0 +1,182 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', sans;
+    background: rgba(156, 39, 176, 0.05);
+    color: #323232;
+    background-color: #1A2129;
+}
+
+.bgColor {
+    background: #1A2129;
+}
+
+.dgColor {
+    background: white;
+}
+
+.all {
+    width: 100%;
+    margin-top: 30px;
+    max-width: 1420px;
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    animation: color-change 20s infinite;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(17, auto) 1fr;
+    grid-gap: 1px;
+}
+
+.element {
+    cursor: pointer;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.group {
+    margin-left: 50px;
+    background-color: #1D3037;
+    width: 90%;
+    margin-top: 20px;
+    height: 670px;
+    padding-left: 20px;
+}
+
+.title {
+    display: flex;
+}
+
+.title h3 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.title span {
+    opacity: .5;
+    color: #C9D5D8;
+    font-size: 30px;
+}
+
+.item {
+    color: #A5B2BB;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+
+
+/* Helyum sağda */
+.element-2 {
+    grid-column-start: -2;
+}
+
+/* Bor & Aliminyum sağda  */
+.element-5,
+.element-13 {
+    grid-column-start: 13;
+}
+
+/* Lantanit */
+.element-57 {
+    grid-column-start: 3;
+
+}
+
+/* Actinide */
+.element-89 {
+    grid-column-start: 3;
+}
+
+/* Categories and Groups */
+
+/* Polyatomic Non Metal  */
+.Ametal {
+    background: #03a9f4;
+}
+
+/* Alkali Metal  */
+.AlkaliMetal {
+    background: #f44336;
+}
+
+/* Alkaline Earth Metal  */
+.AlkaliToprakMetal {
+    background: #ff9800;
+}
+
+/* Transition Metal  */
+.GeçişMetali {
+    background: #efbb31;
+}
+
+/* Metalloid  */
+.YarıMetal {
+    background: #673ab7;
+}
+
+/* Post Transition Metal  */
+.Metal {
+    background: #19caa7;
+}
+
+/* Diatomic Non Metal  */
+.Halojen {
+    background: #f06292;
+}
+
+/* Noble Gas  */
+.Soygaz {
+    background: #00bcd4;
+}
+
+/* Lanthanide  */
+.Lantanit {
+    background: #8bc34a;
+}
+
+/* Actinide  */
+.Actinide {
+    background: #cddc39;
+}
+
+/* The Unknown Element  */
+.unknown {
+    background: #ccffff;
+}
+
+/* When in the hover state  */
+.active {
+    background: #fff;
+}
+
+.elementGroup {
+    width: 10px;
+    height: 10px;
+    float: left;
+    padding: 10px;
+}
