@@ -180,3 +180,26 @@ body {
     float: left;
     padding: 10px;
 }
+
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+  
+
+/* SOCIAL STUFF */
+
+a.social {
+    margin: 150px 5rem ;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.github {
+    color: #49a1eb;
+}
