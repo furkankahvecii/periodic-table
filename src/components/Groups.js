@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from './Social'
 
 class Groups extends React.Component{
     constructor()
@@ -48,6 +49,7 @@ class Groups extends React.Component{
             <table>     
                 {arrayGroup}
             </table>
+            <Social />
         </div>
         )
     }
